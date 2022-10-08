@@ -5,9 +5,83 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: blueviolet;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 90%;
+}
+
+.news-feed {
+  background-color: rgb(123, 98, 233);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: 90%;
+  
+}
+
+.currency-converter {
+  color: rgb(0, 230, 142);
+  background-color: rgb(68, 24, 104);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
+}
+
+.exchange-rate {
+  color: rgb(134, 241, 200);
+  background-color: rgb(169, 122, 212);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+}
+
+.input-box {
+  background-color: rgb(40, 13, 104);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.app-title {
+  text-align: center;
+  color: rgb(0, 230, 142);
+  background-color: rgb(40, 13, 104);
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+button {
+  border: none;
+  float: right;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: green;
+
+}
+
+input, select {
+  border: none;
+}
+
+
+.app-wrapper {
+  display: flex;
 }
